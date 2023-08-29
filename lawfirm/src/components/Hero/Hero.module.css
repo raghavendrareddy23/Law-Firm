@@ -1,0 +1,110 @@
+.container {
+  margin-top: 81px;
+  margin-left: 48px;
+  margin-right: 38px;
+}
+
+.heroText {
+  padding-left: 80px;
+}
+
+.heroImg {
+  position: relative;
+  padding-left: 10%; /* Use relative percentage for padding */
+  height: 468px; /* 50% of the viewport height, adjust as needed */
+  width: 468px; /* Use the same value as height to maintain aspect ratio */
+  border-radius: 10%; /* Circular shape */
+  background-color: var(--color-primary);
+  /* overflow: hidden; */
+}
+
+.heroImage {
+  position: absolute;
+  top: -5%;
+  left: 16%;
+  width: 80%;
+  height: 115%;
+  z-index: 1;
+  margin: -7% 0 0 -10%;
+}
+
+.font {
+  color: var(--color-white);
+  font-family: Inter;
+  font-size: 66px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 147.523%; /* 97.365px */
+  .fontNormal {
+    color: var(--color-white);
+    font-family: Inter;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 147.523%;
+  }
+}
+
+.smallFont {
+  color: var(--color-white);
+  margin-bottom: 50px !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%;
+  opacity: 0.3;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+  /* opacity: 0.1; */
+  background: var(--color-white);
+  padding: 8px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-right: 8px;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  color: var(--color-white);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%;
+}
+
+.searchButton {
+  width: 137px;
+  height: 62px;
+  border-radius: 43px;
+  background: var(--color-primary);
+  color: var(--color-black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 162.523%;
+  text-align: center;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
